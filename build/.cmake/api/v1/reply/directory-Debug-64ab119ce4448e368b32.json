@@ -1,0 +1,732 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1451,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1471,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1480,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1484,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1503,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1507,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1517,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1529,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1556,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libopen62541.a"
+			],
+			"targetId" : "open62541::@a824307a9080723dab2f",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Client_OPCUA/build1/open62541Config.cmake",
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/tools/cmake/open62541Macros.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Client_OPCUA/build1/open62541ConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/open62541",
+			"exportName" : "open62541Targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "open62541::@a824307a9080723dab2f",
+					"index" : 6
+				}
+			],
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Client_OPCUA/build1/CMakeFiles/Export/8cb9d92d46a89e68bf96c40f4a60fffd/open62541Targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Client_OPCUA/build1/src_generated/open62541.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "share/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/tools/certs",
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/tools/nodeset_compiler"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "share/open62541/schema",
+			"paths" : 
+			[
+				{
+					"from" : "/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/tools/schema",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "share/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/tools/generate_datatypes.py",
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/tools/generate_nodeid_header.py",
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/tools/generate_statuscode_descriptions.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Client_OPCUA/build1/src_generated/open62541/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Client_OPCUA/build1/src_generated/open62541/statuscodes.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Client_OPCUA/build1/src_generated/open62541/nodeids.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/common.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Client_OPCUA/build1/src_generated/open62541/types_generated.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/plugin/log.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/util.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/plugin/accesscontrol.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/plugin/certificategroup.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/plugin/securitypolicy.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/plugin/eventloop.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/plugin/nodestore.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/plugin/historydatabase.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/server_pubsub.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/pubsub.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/client.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/server.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/client_highlevel.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/client_subscriptions.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/include/open62541/client_highlevel_async.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/plugins/include/open62541/plugin/accesscontrol_default.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/plugins/include/open62541/plugin/certificategroup_default.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/plugins/include/open62541/plugin/log_stdout.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/plugins/include/open62541/plugin/nodestore_default.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/plugins/include/open62541/server_config_default.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/plugins/include/open62541/client_config_default.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/plugins/include/open62541/plugin/securitypolicy_default.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "include/open62541",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/plugins/include/open62541/server_config_file_based.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin/historydata",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/plugins/include/open62541/plugin/historydata/history_data_backend.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin/historydata",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/plugins/include/open62541/plugin/historydata/history_data_gathering.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin/historydata",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/plugins/include/open62541/plugin/historydata/history_database_default.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin/historydata",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/plugins/include/open62541/plugin/historydata/history_data_gathering_default.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin/historydata",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/plugins/include/open62541/plugin/historydata/history_data_backend_memory.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 43,
+			"component" : "Unspecified",
+			"destination" : "include/open62541/plugin",
+			"paths" : 
+			[
+				"/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/plugins/include/open62541/plugin/log_syslog.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Client_OPCUA/build1",
+		"source" : "/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541"
+	}
+}

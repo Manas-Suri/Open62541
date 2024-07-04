@@ -1,0 +1,917 @@
+The system is: Linux - 6.1.0-21-amd64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-jKStpX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6b7e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b7e8.dir/build.make CMakeFiles/cmTC_6b7e8.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-jKStpX'
+Building CXX object CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++   -v -o CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6b7e8.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6b7e8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccc4xTck.s
+GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/12
+ /usr/include/x86_64-linux-gnu/c++/12
+ /usr/include/c++/12/backward
+ /usr/lib/gcc/x86_64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 62b090dbbefa50644117a3c13d47369a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6b7e8.dir/'
+ as -v --64 -o CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccc4xTck.s
+GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_6b7e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b7e8.dir/link.txt --verbose=1
+/usr/bin/g++  -v CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6b7e8 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6b7e8' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6b7e8.'
+ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9Mz7Fq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6b7e8 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6b7e8' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6b7e8.'
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-jKStpX'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/12]
+    add: [/usr/include/x86_64-linux-gnu/c++/12]
+    add: [/usr/include/c++/12/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/12] ==> [/usr/include/c++/12]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/12] ==> [/usr/include/x86_64-linux-gnu/c++/12]
+  collapse include dir [/usr/include/c++/12/backward] ==> [/usr/include/c++/12/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/12;/usr/include/x86_64-linux-gnu/c++/12;/usr/include/c++/12/backward;/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-jKStpX]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6b7e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b7e8.dir/build.make CMakeFiles/cmTC_6b7e8.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-jKStpX']
+  ignore line: [Building CXX object CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++   -v -o CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6b7e8.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6b7e8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccc4xTck.s]
+  ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/12]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/12]
+  ignore line: [ /usr/include/c++/12/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 62b090dbbefa50644117a3c13d47369a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6b7e8.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccc4xTck.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_6b7e8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b7e8.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++  -v CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6b7e8 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6b7e8' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6b7e8.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9Mz7Fq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6b7e8 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc9Mz7Fq.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6b7e8] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_6b7e8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-QmLi3g
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_84d45/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84d45.dir/build.make CMakeFiles/cmTC_84d45.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-QmLi3g'
+Building C object CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc   -v -o CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_84d45.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_84d45.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccsG00sY.s
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1-p1, MPC version 1.3.1, isl version isl-0.25-GMP
+
+warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: cc72d2b9b5048fedc2be9051c917b40b
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_84d45.dir/'
+ as -v --64 -o CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o /tmp/ccsG00sY.s
+GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_84d45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84d45.dir/link.txt --verbose=1
+/usr/bin/gcc  -v CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o -o cmTC_84d45 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84d45' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_84d45.'
+ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPVF0lT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_84d45 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84d45' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_84d45.'
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-QmLi3g'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-QmLi3g]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_84d45/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84d45.dir/build.make CMakeFiles/cmTC_84d45.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-QmLi3g']
+  ignore line: [Building C object CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc   -v -o CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_84d45.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_84d45.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -o /tmp/ccsG00sY.s]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 12.2.0-14) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1-p1  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [warning: MPFR header version 4.1.1-p1 differs from library version 4.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: cc72d2b9b5048fedc2be9051c917b40b]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_84d45.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o /tmp/ccsG00sY.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_84d45]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84d45.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc  -v CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o -o cmTC_84d45 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-12-bTRWOB/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_84d45' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_84d45.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPVF0lT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_84d45 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccPVF0lT.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_84d45] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_84d45.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-twMPTx
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1731e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1731e.dir/build.make CMakeFiles/cmTC_1731e.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-twMPTx'
+Building C object CMakeFiles/cmTC_1731e.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -o CMakeFiles/cmTC_1731e.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-twMPTx/src.c
+Linking C executable cmTC_1731e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1731e.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_1731e.dir/src.c.o -o cmTC_1731e 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-twMPTx'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-3HoaAN
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a6dea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a6dea.dir/build.make CMakeFiles/cmTC_a6dea.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-3HoaAN'
+Building C object CMakeFiles/cmTC_a6dea.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99    -pipe -o CMakeFiles/cmTC_a6dea.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-3HoaAN/src.c
+Linking C executable cmTC_a6dea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6dea.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99  CMakeFiles/cmTC_a6dea.dir/src.c.o -o cmTC_a6dea 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-3HoaAN'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-Awzz34
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6eec/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6eec.dir/build.make CMakeFiles/cmTC_f6eec.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-Awzz34'
+Building C object CMakeFiles/cmTC_f6eec.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe    -Wall -o CMakeFiles/cmTC_f6eec.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-Awzz34/src.c
+Linking C executable cmTC_f6eec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6eec.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe  CMakeFiles/cmTC_f6eec.dir/src.c.o -o cmTC_f6eec 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-Awzz34'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-CC3UF1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eeafc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eeafc.dir/build.make CMakeFiles/cmTC_eeafc.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-CC3UF1'
+Building C object CMakeFiles/cmTC_eeafc.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall    -Wextra -o CMakeFiles/cmTC_eeafc.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-CC3UF1/src.c
+Linking C executable cmTC_eeafc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeafc.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall  CMakeFiles/cmTC_eeafc.dir/src.c.o -o cmTC_eeafc 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-CC3UF1'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-GpLyHb
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_229da/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_229da.dir/build.make CMakeFiles/cmTC_229da.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-GpLyHb'
+Building C object CMakeFiles/cmTC_229da.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra    -Wpedantic -o CMakeFiles/cmTC_229da.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-GpLyHb/src.c
+Linking C executable cmTC_229da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_229da.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra  CMakeFiles/cmTC_229da.dir/src.c.o -o cmTC_229da 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-GpLyHb'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-JIAr4p
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eb2a7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eb2a7.dir/build.make CMakeFiles/cmTC_eb2a7.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-JIAr4p'
+Building C object CMakeFiles/cmTC_eb2a7.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic    -Wno-static-in-inline -o CMakeFiles/cmTC_eb2a7.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-JIAr4p/src.c
+Linking C executable cmTC_eb2a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb2a7.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic  CMakeFiles/cmTC_eb2a7.dir/src.c.o -o cmTC_eb2a7 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-JIAr4p'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-gTaryP
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0ecbc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0ecbc.dir/build.make CMakeFiles/cmTC_0ecbc.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-gTaryP'
+Building C object CMakeFiles/cmTC_0ecbc.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline    -Wno-overlength-strings -o CMakeFiles/cmTC_0ecbc.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-gTaryP/src.c
+Linking C executable cmTC_0ecbc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ecbc.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline  CMakeFiles/cmTC_0ecbc.dir/src.c.o -o cmTC_0ecbc 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-gTaryP'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-WwtnVq
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c01fb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c01fb.dir/build.make CMakeFiles/cmTC_c01fb.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-WwtnVq'
+Building C object CMakeFiles/cmTC_c01fb.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings    -Wno-unused-parameter -o CMakeFiles/cmTC_c01fb.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-WwtnVq/src.c
+Linking C executable cmTC_c01fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c01fb.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings  CMakeFiles/cmTC_c01fb.dir/src.c.o -o cmTC_c01fb 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-WwtnVq'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-f2HEBb
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ec3e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ec3e9.dir/build.make CMakeFiles/cmTC_ec3e9.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-f2HEBb'
+Building C object CMakeFiles/cmTC_ec3e9.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter    -Wno-maybe-uninitialized -o CMakeFiles/cmTC_ec3e9.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-f2HEBb/src.c
+Linking C executable cmTC_ec3e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec3e9.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter  CMakeFiles/cmTC_ec3e9.dir/src.c.o -o cmTC_ec3e9 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-f2HEBb'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-48lhhG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8d85d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8d85d.dir/build.make CMakeFiles/cmTC_8d85d.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-48lhhG'
+Building C object CMakeFiles/cmTC_8d85d.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized    -Wc++-compat -o CMakeFiles/cmTC_8d85d.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-48lhhG/src.c
+Linking C executable cmTC_8d85d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d85d.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized  CMakeFiles/cmTC_8d85d.dir/src.c.o -o cmTC_8d85d 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-48lhhG'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-wsTLno
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_48e59/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_48e59.dir/build.make CMakeFiles/cmTC_48e59.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-wsTLno'
+Building C object CMakeFiles/cmTC_48e59.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat    -Wformat -o CMakeFiles/cmTC_48e59.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-wsTLno/src.c
+Linking C executable cmTC_48e59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48e59.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat  CMakeFiles/cmTC_48e59.dir/src.c.o -o cmTC_48e59 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-wsTLno'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-O7W3dx
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_84f25/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84f25.dir/build.make CMakeFiles/cmTC_84f25.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-O7W3dx'
+Building C object CMakeFiles/cmTC_84f25.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat    -Wformat-security -o CMakeFiles/cmTC_84f25.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-O7W3dx/src.c
+Linking C executable cmTC_84f25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84f25.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat  CMakeFiles/cmTC_84f25.dir/src.c.o -o cmTC_84f25 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-O7W3dx'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-iO9xhX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e4dec/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e4dec.dir/build.make CMakeFiles/cmTC_e4dec.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-iO9xhX'
+Building C object CMakeFiles/cmTC_e4dec.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security    -Wformat-nonliteral -o CMakeFiles/cmTC_e4dec.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-iO9xhX/src.c
+Linking C executable cmTC_e4dec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4dec.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security  CMakeFiles/cmTC_e4dec.dir/src.c.o -o cmTC_e4dec 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-iO9xhX'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-Je62zs
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cdebd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cdebd.dir/build.make CMakeFiles/cmTC_cdebd.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-Je62zs'
+Building C object CMakeFiles/cmTC_cdebd.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral    -Wmissing-prototypes -o CMakeFiles/cmTC_cdebd.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-Je62zs/src.c
+Linking C executable cmTC_cdebd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdebd.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral  CMakeFiles/cmTC_cdebd.dir/src.c.o -o cmTC_cdebd 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-Je62zs'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-zW1Lts
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2ca59/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2ca59.dir/build.make CMakeFiles/cmTC_2ca59.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-zW1Lts'
+Building C object CMakeFiles/cmTC_2ca59.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes    -Wstrict-prototypes -o CMakeFiles/cmTC_2ca59.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-zW1Lts/src.c
+Linking C executable cmTC_2ca59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ca59.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes  CMakeFiles/cmTC_2ca59.dir/src.c.o -o cmTC_2ca59 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-zW1Lts'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-S58Gh9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_79072/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_79072.dir/build.make CMakeFiles/cmTC_79072.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-S58Gh9'
+Building C object CMakeFiles/cmTC_79072.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes    -Wredundant-decls -o CMakeFiles/cmTC_79072.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-S58Gh9/src.c
+Linking C executable cmTC_79072
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79072.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes  CMakeFiles/cmTC_79072.dir/src.c.o -o cmTC_79072 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-S58Gh9'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-LJdIfr
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1a9ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1a9ac.dir/build.make CMakeFiles/cmTC_1a9ac.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-LJdIfr'
+Building C object CMakeFiles/cmTC_1a9ac.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls    -Wuninitialized -o CMakeFiles/cmTC_1a9ac.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-LJdIfr/src.c
+Linking C executable cmTC_1a9ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a9ac.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls  CMakeFiles/cmTC_1a9ac.dir/src.c.o -o cmTC_1a9ac 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-LJdIfr'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-ZmMvd3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46999/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46999.dir/build.make CMakeFiles/cmTC_46999.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-ZmMvd3'
+Building C object CMakeFiles/cmTC_46999.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized    -Winit-self -o CMakeFiles/cmTC_46999.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-ZmMvd3/src.c
+Linking C executable cmTC_46999
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46999.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized  CMakeFiles/cmTC_46999.dir/src.c.o -o cmTC_46999 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-ZmMvd3'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-yizi6I
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_031d1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_031d1.dir/build.make CMakeFiles/cmTC_031d1.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-yizi6I'
+Building C object CMakeFiles/cmTC_031d1.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self    -Wcast-qual -o CMakeFiles/cmTC_031d1.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-yizi6I/src.c
+Linking C executable cmTC_031d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_031d1.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self  CMakeFiles/cmTC_031d1.dir/src.c.o -o cmTC_031d1 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-yizi6I'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-2fE5k1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5345e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5345e.dir/build.make CMakeFiles/cmTC_5345e.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-2fE5k1'
+Building C object CMakeFiles/cmTC_5345e.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual    -Wstrict-overflow -o CMakeFiles/cmTC_5345e.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-2fE5k1/src.c
+Linking C executable cmTC_5345e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5345e.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual  CMakeFiles/cmTC_5345e.dir/src.c.o -o cmTC_5345e 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-2fE5k1'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-IdRWib
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fdfff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fdfff.dir/build.make CMakeFiles/cmTC_fdfff.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-IdRWib'
+Building C object CMakeFiles/cmTC_fdfff.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow    -Wnested-externs -o CMakeFiles/cmTC_fdfff.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-IdRWib/src.c
+Linking C executable cmTC_fdfff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdfff.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow  CMakeFiles/cmTC_fdfff.dir/src.c.o -o cmTC_fdfff 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-IdRWib'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-6pDh8p
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_39a73/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_39a73.dir/build.make CMakeFiles/cmTC_39a73.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-6pDh8p'
+Building C object CMakeFiles/cmTC_39a73.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs    -Wmultichar -o CMakeFiles/cmTC_39a73.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-6pDh8p/src.c
+Linking C executable cmTC_39a73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39a73.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs  CMakeFiles/cmTC_39a73.dir/src.c.o -o cmTC_39a73 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-6pDh8p'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-D633ie
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7373e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7373e.dir/build.make CMakeFiles/cmTC_7373e.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-D633ie'
+Building C object CMakeFiles/cmTC_7373e.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar    -Wundef -o CMakeFiles/cmTC_7373e.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-D633ie/src.c
+Linking C executable cmTC_7373e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7373e.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar  CMakeFiles/cmTC_7373e.dir/src.c.o -o cmTC_7373e 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-D633ie'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-wEsKr1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_80c64/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80c64.dir/build.make CMakeFiles/cmTC_80c64.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-wEsKr1'
+Building C object CMakeFiles/cmTC_80c64.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef    -fno-strict-aliasing -o CMakeFiles/cmTC_80c64.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-wEsKr1/src.c
+Linking C executable cmTC_80c64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80c64.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef  CMakeFiles/cmTC_80c64.dir/src.c.o -o cmTC_80c64 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-wEsKr1'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-qw7phG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c92ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c92ae.dir/build.make CMakeFiles/cmTC_c92ae.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-qw7phG'
+Building C object CMakeFiles/cmTC_c92ae.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing    -fexceptions -o CMakeFiles/cmTC_c92ae.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-qw7phG/src.c
+Linking C executable cmTC_c92ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c92ae.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing  CMakeFiles/cmTC_c92ae.dir/src.c.o -o cmTC_c92ae 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-qw7phG'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-DOJqHG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3440d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3440d.dir/build.make CMakeFiles/cmTC_3440d.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-DOJqHG'
+Building C object CMakeFiles/cmTC_3440d.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions    -pthread -o CMakeFiles/cmTC_3440d.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-DOJqHG/src.c
+Linking C executable cmTC_3440d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3440d.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions  CMakeFiles/cmTC_3440d.dir/src.c.o -o cmTC_3440d 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-DOJqHG'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-ZU2EvQ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dfff8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dfff8.dir/build.make CMakeFiles/cmTC_dfff8.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-ZU2EvQ'
+Building C object CMakeFiles/cmTC_dfff8.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread    -fstack-protector-strong -o CMakeFiles/cmTC_dfff8.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-ZU2EvQ/src.c
+Linking C executable cmTC_dfff8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfff8.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread  CMakeFiles/cmTC_dfff8.dir/src.c.o -o cmTC_dfff8 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-ZU2EvQ'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-AvSK6C
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86fc5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86fc5.dir/build.make CMakeFiles/cmTC_86fc5.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-AvSK6C'
+Building C object CMakeFiles/cmTC_86fc5.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread -fstack-protector-strong    -fstack-clash-protection -o CMakeFiles/cmTC_86fc5.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-AvSK6C/src.c
+Linking C executable cmTC_86fc5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86fc5.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread -fstack-protector-strong  CMakeFiles/cmTC_86fc5.dir/src.c.o -o cmTC_86fc5 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-AvSK6C'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported succeeded with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-0k32rc
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4280a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4280a.dir/build.make CMakeFiles/cmTC_4280a.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-0k32rc'
+Building C object CMakeFiles/cmTC_4280a.dir/src.c.o
+/usr/bin/gcc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread -fstack-protector-strong -fstack-clash-protection    -fcf-protection -o CMakeFiles/cmTC_4280a.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-0k32rc/src.c
+Linking C executable cmTC_4280a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4280a.dir/link.txt --verbose=1
+/usr/bin/gcc  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread -fstack-protector-strong -fstack-clash-protection  CMakeFiles/cmTC_4280a.dir/src.c.o -o cmTC_4280a 
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build/CMakeFiles/CMakeScratch/TryCompile-0k32rc'
+
+
+Source file was:
+int main(void) { return 0; }
+

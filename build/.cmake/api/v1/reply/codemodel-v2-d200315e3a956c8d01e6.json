@@ -1,0 +1,240 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Client_OPCUA/build1",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Debug-64ab119ce4448e368b32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Client_OPCUA/build1/doc",
+					"jsonFile" : "directory-Debug-265d8e62109b4f53777c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/open62541/doc",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Open62541Example1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "open62541",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Open62541Example1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Open62541Example1-Debug-78fc23dd2e78d962a0d6.json",
+					"name" : "Open62541Example1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "clang-tidy::@a824307a9080723dab2f",
+					"jsonFile" : "target-clang-tidy-Debug-ef32d4580ce3a9cbd3e8.json",
+					"name" : "clang-tidy",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cpplint::@a824307a9080723dab2f",
+					"jsonFile" : "target-cpplint-Debug-821e8e60fcbe2645c88b.json",
+					"name" : "cpplint",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "doc::@17767630e55aeab3920f",
+					"jsonFile" : "target-doc-Debug-c7da0cc7a26639563e69.json",
+					"name" : "doc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "doc_latex::@17767630e55aeab3920f",
+					"jsonFile" : "target-doc_latex-Debug-7b2ff42ee61bcbf32592.json",
+					"name" : "doc_latex",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "doc_pdf::@17767630e55aeab3920f",
+					"jsonFile" : "target-doc_pdf-Debug-0e4c92a0a4f96048f815.json",
+					"name" : "doc_pdf",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "open62541::@a824307a9080723dab2f",
+					"jsonFile" : "target-open62541-Debug-81b7fde1158df9b716ab.json",
+					"name" : "open62541",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "open62541-code-generation::@a824307a9080723dab2f",
+					"jsonFile" : "target-open62541-code-generation-Debug-f71aa35a091af307d1b4.json",
+					"name" : "open62541-code-generation",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "open62541-generator-ids-ns0::@a824307a9080723dab2f",
+					"jsonFile" : "target-open62541-generator-ids-ns0-Debug-3e720278bd84d947290b.json",
+					"name" : "open62541-generator-ids-ns0",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "open62541-generator-namespace::@a824307a9080723dab2f",
+					"jsonFile" : "target-open62541-generator-namespace-Debug-3c315ab82d887193d2fc.json",
+					"name" : "open62541-generator-namespace",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "open62541-generator-statuscode::@a824307a9080723dab2f",
+					"jsonFile" : "target-open62541-generator-statuscode-Debug-3aedcca24c3c2d02affd.json",
+					"name" : "open62541-generator-statuscode",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "open62541-generator-transport::@a824307a9080723dab2f",
+					"jsonFile" : "target-open62541-generator-transport-Debug-955b76c67052324cdbc2.json",
+					"name" : "open62541-generator-transport",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "open62541-generator-types::@a824307a9080723dab2f",
+					"jsonFile" : "target-open62541-generator-types-Debug-a9d1945911bffd5f29c1.json",
+					"name" : "open62541-generator-types",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "open62541-object::@a824307a9080723dab2f",
+					"jsonFile" : "target-open62541-object-Debug-a2090261a277850baa69.json",
+					"name" : "open62541-object",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "open62541-plugins::@a824307a9080723dab2f",
+					"jsonFile" : "target-open62541-plugins-Debug-f63671015f1220e6acbc.json",
+					"name" : "open62541-plugins",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/build",
+		"source" : "/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/hello/Open62541/Client_OPCUA"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
