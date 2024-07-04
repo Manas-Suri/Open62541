@@ -1,0 +1,162 @@
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-bs3IwI
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6e5e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6e5e8.dir/build.make CMakeFiles/cmTC_6e5e8.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-bs3IwI'
+Building C object CMakeFiles/cmTC_6e5e8.dir/src.c.o
+/usr/bin/cc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread -fstack-protector-strong -fstack-clash-protection    -mcet -o CMakeFiles/cmTC_6e5e8.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-bs3IwI/src.c
+cc: error: unrecognized command-line option '-mcet'
+gmake[1]: *** [CMakeFiles/cmTC_6e5e8.dir/build.make:78: CMakeFiles/cmTC_6e5e8.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-bs3IwI'
+gmake: *** [Makefile:127: cmTC_6e5e8/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-jlUtFz
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e37f1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e37f1.dir/build.make CMakeFiles/cmTC_e37f1.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-jlUtFz'
+Building C object CMakeFiles/cmTC_e37f1.dir/src.c.o
+/usr/bin/cc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread -fstack-protector-strong -fstack-clash-protection -fcf-protection    -mcet -o CMakeFiles/cmTC_e37f1.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-jlUtFz/src.c
+cc: error: unrecognized command-line option '-mcet'
+gmake[1]: *** [CMakeFiles/cmTC_e37f1.dir/build.make:78: CMakeFiles/cmTC_e37f1.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-jlUtFz'
+gmake: *** [Makefile:127: cmTC_e37f1/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-wkrIiC
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b8e82/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b8e82.dir/build.make CMakeFiles/cmTC_b8e82.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-wkrIiC'
+Building C object CMakeFiles/cmTC_b8e82.dir/src.c.o
+/usr/bin/cc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread -fstack-protector-strong -fstack-clash-protection -fcf-protection    -mcet -o CMakeFiles/cmTC_b8e82.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-wkrIiC/src.c
+cc: error: unrecognized command-line option '-mcet'
+gmake[1]: *** [CMakeFiles/cmTC_b8e82.dir/build.make:78: CMakeFiles/cmTC_b8e82.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-wkrIiC'
+gmake: *** [Makefile:127: cmTC_b8e82/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-5ET3Hw
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2e40a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2e40a.dir/build.make CMakeFiles/cmTC_2e40a.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-5ET3Hw'
+Building C object CMakeFiles/cmTC_2e40a.dir/src.c.o
+/usr/bin/cc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread -fstack-protector-strong -fstack-clash-protection -fcf-protection    -mcet -o CMakeFiles/cmTC_2e40a.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-5ET3Hw/src.c
+cc: error: unrecognized command-line option '-mcet'
+gmake[1]: *** [CMakeFiles/cmTC_2e40a.dir/build.make:78: CMakeFiles/cmTC_2e40a.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-5ET3Hw'
+gmake: *** [Makefile:127: cmTC_2e40a/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-QxDeLT
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6efcf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6efcf.dir/build.make CMakeFiles/cmTC_6efcf.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-QxDeLT'
+Building C object CMakeFiles/cmTC_6efcf.dir/src.c.o
+/usr/bin/cc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread -fstack-protector-strong -fstack-clash-protection -fcf-protection    -mcet -o CMakeFiles/cmTC_6efcf.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-QxDeLT/src.c
+cc: error: unrecognized command-line option '-mcet'
+gmake[1]: *** [CMakeFiles/cmTC_6efcf.dir/build.make:78: CMakeFiles/cmTC_6efcf.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-QxDeLT'
+gmake: *** [Makefile:127: cmTC_6efcf/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-SBcPFY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4aee1/fast && gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-SBcPFY'
+/usr/bin/gmake  -f CMakeFiles/cmTC_4aee1.dir/build.make CMakeFiles/cmTC_4aee1.dir/build
+gmake[2]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-SBcPFY'
+Building C object CMakeFiles/cmTC_4aee1.dir/src.c.o
+/usr/bin/cc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread -fstack-protector-strong -fstack-clash-protection -fcf-protection    -mcet -o CMakeFiles/cmTC_4aee1.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-SBcPFY/src.c
+cc: error: unrecognized command-line option '-mcet'
+gmake[2]: *** [CMakeFiles/cmTC_4aee1.dir/build.make:78: CMakeFiles/cmTC_4aee1.dir/src.c.o] Error 1
+gmake[2]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-SBcPFY'
+gmake[1]: *** [Makefile:127: cmTC_4aee1/fast] Error 2
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-SBcPFY'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-iu5fw8
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fbb2a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fbb2a.dir/build.make CMakeFiles/cmTC_fbb2a.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-iu5fw8'
+Building C object CMakeFiles/cmTC_fbb2a.dir/src.c.o
+/usr/bin/cc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread -fstack-protector-strong -fstack-clash-protection -fcf-protection    -mcet -o CMakeFiles/cmTC_fbb2a.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-iu5fw8/src.c
+cc: error: unrecognized command-line option '-mcet'
+gmake[1]: *** [CMakeFiles/cmTC_fbb2a.dir/build.make:78: CMakeFiles/cmTC_fbb2a.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-iu5fw8'
+gmake: *** [Makefile:127: cmTC_fbb2a/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-x9wQeT
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3b4f3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3b4f3.dir/build.make CMakeFiles/cmTC_3b4f3.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-x9wQeT'
+Building C object CMakeFiles/cmTC_3b4f3.dir/src.c.o
+/usr/bin/cc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread -fstack-protector-strong -fstack-clash-protection -fcf-protection    -mcet -o CMakeFiles/cmTC_3b4f3.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-x9wQeT/src.c
+cc: error: unrecognized command-line option '-mcet'
+gmake[1]: *** [CMakeFiles/cmTC_3b4f3.dir/build.make:78: CMakeFiles/cmTC_3b4f3.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-x9wQeT'
+gmake: *** [Makefile:127: cmTC_3b4f3/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-1ldpRJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b63e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b63e9.dir/build.make CMakeFiles/cmTC_b63e9.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-1ldpRJ'
+Building C object CMakeFiles/cmTC_b63e9.dir/src.c.o
+/usr/bin/cc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread -fstack-protector-strong -fstack-clash-protection -fcf-protection    -mcet -o CMakeFiles/cmTC_b63e9.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-1ldpRJ/src.c
+cc: error: unrecognized command-line option '-mcet'
+gmake[1]: *** [CMakeFiles/cmTC_b63e9.dir/build.make:78: CMakeFiles/cmTC_b63e9.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-1ldpRJ'
+gmake: *** [Makefile:127: cmTC_b63e9/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test flag_supported failed with the following output:
+Change Dir: /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-6ewP2H
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c186c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c186c.dir/build.make CMakeFiles/cmTC_c186c.dir/build
+gmake[1]: Entering directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-6ewP2H'
+Building C object CMakeFiles/cmTC_c186c.dir/src.c.o
+/usr/bin/cc -Dflag_supported  -std=c99 -pipe -Wall -Wextra -Wpedantic -Wno-static-in-inline -Wno-overlength-strings -Wno-unused-parameter -Wno-maybe-uninitialized -Wc++-compat -Wformat -Wformat-security -Wformat-nonliteral -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wuninitialized -Winit-self -Wcast-qual -Wstrict-overflow -Wnested-externs -Wmultichar -Wundef -fno-strict-aliasing -fexceptions -pthread -fstack-protector-strong -fstack-clash-protection -fcf-protection    -mcet -o CMakeFiles/cmTC_c186c.dir/src.c.o -c /home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-6ewP2H/src.c
+cc: error: unrecognized command-line option '-mcet'
+gmake[1]: *** [CMakeFiles/cmTC_c186c.dir/build.make:78: CMakeFiles/cmTC_c186c.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/INTRANET.SALZ.GMBH/manas.suri/Work/Rpi_Imager/Open62541/Server_OPCUA/build/CMakeFiles/CMakeScratch/TryCompile-6ewP2H'
+gmake: *** [Makefile:127: cmTC_c186c/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+

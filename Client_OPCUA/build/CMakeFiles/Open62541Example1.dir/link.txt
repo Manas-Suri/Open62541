@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Open62541Example1.dir/main.cpp.o -o Open62541Example1  bin/libopen62541.a -lm -lpthread -lrt 
