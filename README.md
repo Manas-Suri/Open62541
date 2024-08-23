@@ -4,8 +4,17 @@ This project showcases the application of a server-client communication in opcua
 
 ## Prerequisites
 
+Please install the open62541 package from official github repository [Link](https://github.com/open62541/open62541)
+
 ```bash
-sudo apt **update**
+git clone git@github.com:open62541/open62541.git
+
+```
+
+Packages that need to be installed
+
+```bash
+sudo apt update
 sudo apt install build-essential gdb cmake
 ```
 
@@ -33,9 +42,6 @@ from `./build` directory run in separate terminal
 ./Open62541Example
 ```
 
-## License
-
-- Closed License 
 
 
 ## Contact
