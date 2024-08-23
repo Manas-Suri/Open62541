@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/Open62541Example.dir/main.cpp.o CMakeFiles/Open62541Example.dir/temperature_change.cpp.o -o Open62541Example  bin/libopen62541.a -lm -lpthread -lrt 

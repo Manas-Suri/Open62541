@@ -1,0 +1,21 @@
+// {type:class}
+// {direction:topDown}
+// {generate:true}
+
+[Start]->[main]
+
+[main]->[client|connect(ipAddress)]
+
+[client]->[findFolder(parentFolder)|browseNode(parentFolderId)|findFolder(childFolder)|browseNode(childFolderId)|findFolder(tempSensorId)|browseNode(tempSensorId)|findFolder(childNodeId)|browseNode(childNodeId)]
+
+[findFolder(parentFolder)]->[findFolders|UA_String_fromChars;ObjectFinder;UA_String_fromChars|ObjectFinder (Private function)|UA_ReferenceDescription *ref;outputFolderPath.push_back]
+
+[findFolder(parentFolder)]->[browseNode|browseRequestBuilder (Private function)|UA_BrowseRequest;UA_Client_Service_browse;UA_BrowseRequest_clear;]
+
+[note:RetreiveValues Architecture{bg:cornsilk}]
+
+[RetreiveValues|-*client;-browseRequestBuilder;- ObjectFinder|+ vector<UA_String> outputFolderPath;+stopHandler;+connect;+browseNode;+findFolder;+readTemperature]
+
+[note:SaveValues Architecture{bg:cornsilk}]
+
+[SaveValues|-myFile|+createFile;+writeValues]

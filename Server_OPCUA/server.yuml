@@ -1,0 +1,22 @@
+// {type:class}
+// {direction:topDown}
+// {generate:true}
+[Start]->[main (calling out the OPCUAServer)]
+[main (calling out the OPCUAServer)]->[OPCUAServer|run|stopHandler;beforeReadTemperature;addingAttributes]
+
+[OPCUAServer]->[run|signal;UA_Server_new;UA_Server_getConfig;UA_Server_addNamespace;UA_Server_addObjectNode;UA_Server_setVariableNode_valueCallback;UA_Server_run]
+
+[run]->[stopHandler|running=false]
+
+[stopHandler] ->[beforeReadTemperature|UA_Variant_setScalar;UA_Server_writeValue]
+
+[beforeReadTemperature]->[addingAttributes|UA_Variant_setScalar;UA_Server_addVariableNode;]
+
+[addingAttributes] ->[End]
+
+[note:OPCUAServer Architecture{bg:cornsilk}]
+[Class|OPCUAServer]->[Public|OPCUAServer;stopHandler;beforeReadTemperature;addingAttributes]
+
+[Class|OPCUAServer]->[Private|TemperatureValue;TemperatureString;serialNumber;SerialNumberString;SerialNum;snAttr;*server;running]
+
+
