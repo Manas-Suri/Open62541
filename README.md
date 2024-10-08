@@ -24,7 +24,7 @@ Additional we use **VSCode** as development **IDE**
 
 ## Installation
 
-Use this Code in both **CLient_OPCUA** and in **Server_OPCUA** 
+Use this Code in both **Client_OPCUA** and in **Server_OPCUA** 
 
 
 ```bash
