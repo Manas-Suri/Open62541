@@ -1,39 +1,3 @@
-
-// #include <stdlib.h> // For rand()
-// #include "PumpVariables.h"
-
-// // Function definition
-// void beforeReadTemperature(UA_Server *server_, const UA_NodeId *sessionId,
-// void *sessionContext,
-//                            const UA_NodeId *nodeid, void *nodeContext,
-//                            const UA_NumericRange *range, const UA_DataValue
-//                            *data) {
-//     float temp = 1.0 * (rand() % 100) / 100 - 0.5;
-//     temperature_value_ += temp +1;
-//     UA_Variant value;
-//     UA_Variant_setScalar(&value, &temperature_value_,
-//     &UA_TYPES[UA_TYPES_INT32]); UA_Server_writeValue(server_,
-//     UA_NODEID_STRING(2, temperature_string_), value);
-// }
-
-// // All the values are taken as an example of serial number to server_
-// void addingAttributes(UA_VariableAttributes varAttr,
-//     UA_Int32 serial_number_,
-//     char serial_number_string_[],
-//     char serial_num_[],UA_Server *server_,
-//     UA_NodeId rl_tempsens_Id)
-// {
-//     UA_Variant_setScalar(&sn_attr_.value, &serial_number_,
-//     &UA_TYPES[UA_TYPES_INT32]); UA_Server_addVariableNode(server_,
-//     UA_NODEID_STRING(2, serial_number_string_), rl_tempsens_Id,
-//                               UA_NODEID_NUMERIC(0, UA_NS0ID_HASCOMPONENT),
-//                               UA_QUALIFIEDNAME(2, serial_num_),
-//                               UA_NODEID_NUMERIC(0,
-//                               UA_NS0ID_BASEDATAVARIABLETYPE), sn_attr_, NULL,
-//                               NULL);
-// }
-
-// --------------------------------------------------------------------------------------------
 #include "pumpVariables.h"
 
 #include <open62541/plugin/log_stdout.h>
