@@ -20,7 +20,7 @@ sudo apt install build-essential gdb cmake
 
 Additional **UA-Expert** is recommended to see client side variables [Link](https://www.unified-automation.com/products/development-tools/uaexpert.html)
 
-Additional we use **VSCode** as development **IDE**
+Additional I used **VSCode** as development **IDE**
 
 ## Installation
 
