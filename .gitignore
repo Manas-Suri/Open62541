@@ -4,4 +4,6 @@
 
 # ignore ALL files in ANY directory 
 Client_OPCUA/build
+Client_OPCUA/.vscode
 Server_OPCUA/build
+Server_OPCUA/.vscode

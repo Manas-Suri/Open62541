@@ -2,6 +2,20 @@
 
 This project showcases the application of a server-client communication in opcua communication protocol. A variable is sent from client to server then after receiving the data at the server end. This received data along the file location is written to a file along with timestamp.
 
+## File Structure
+
+Here is the recommended file structure for this project:
+
+```bash
+Open62541 
+├── Client_OPCUA
+├── Server_OPCUA
+├── open62541 
+├── README.md 
+```
+To ensure that the CMake build process works correctly, please maintain the following file structure:
+
+
 ## Prerequisites
 
 Please install the open62541 package from official github repository [Link](https://github.com/open62541/open62541)
@@ -42,7 +56,12 @@ from `./build` directory run in separate terminal
 ./Open62541Example
 ```
 
+## File Structure
 
+- Open62541
+-- Client_OPCUA
+-- open62541
+-- Server_OPCUA
 
 ## Contact
 
